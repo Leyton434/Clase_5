@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horarios de atención</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="pagina1">
+    <header class="soyheader">
+      <h1 id="letra">Formulario Gamer:</h1>
+    </header>
+    <nav class="nav1">
+      <li>Ir a <a href="./pages/inicio.html">Inico</a></li>
+      <li>Ir a <a href="./pages/Integrantes.html">Integrantes</a></li>
+    </nav>
+    <main>
+      <article>
+          <section class="caja">
+            <form class="borde">
+              <h3>Porfavor rellene los siguientes datos:</h3>
+              <ul class="lista" >
+                <li>
+                  <label for="nombre">Nombre</label>
+                  <input type="text" name="nombre" placeholder="Nombre">
+                </li>
+                <li>
+                  <label for="apellido">Apellido</label>
+                  <input type="text" name="apellido" placeholder="apellido" >
+                </li>
+                <li>
+                  <label for="telefono">Telefono</label>
+                  <input type="tel" name="telefono" placeholder="telefono" >
+                </li>
+              </ul>
+              <h3>Seleccione su genero:</h3>
+              <ul class="lista" >
+                <li>
+                  <label for="hombre">Masculino</label>
+                  <input type="radio" name="genero" id="hombre">
+                </li>
+                <li>
+                  <label for="mujer">Femenino</label>
+                  <input type="radio" name="genero" id="mujer">
+                </li>
+                <li>
+                  <label for="otro">Otro</label>
+                  <input type="radio" name="genero" id="otro">
+                </li>
+              </ul>
+              <h3>Seleccione su pais</h3> 
+              <select name="pais" id="pais">
+                  <option value="none">Elija una opcion</option>
+                  <option value="option1">Argentina</option>
+                  <option value="option2">Uruguay</option>
+                  <option value="option3">Paraguay</option>
+                  <option value="option4">Chile</option>
+                  <option value="option5">Bolivia</option>
+              </select>
+              <h3>¿Qué tipo de videjuegos le gusta mas?</h3> 
+
+              <select name="jue" id="jue">
+                <option value="none">Elija una opcion</option>
+                <option value="op1">Deportes</option>
+                <option value="op2">Estrategia</option>
+                <option value="op3">Aventura</option>
+                <option value="op4">Survival</option>
+                <option value="op5">Arcade</option>
+                <option value="op5">MOBA</option>
+              </select>
+
+              <h3>¿Cuales de los siguientes titulos le llama mas la atención? (puede seleccionar varios)</h3> 
+              <ul class="lista">
+                <li><input type="checkbox" name="Fifa 23">Fifa 23</input></li>
+                <li><input type="checkbox" name="Doom">Doom</input></li>
+                <li><input type="checkbox" name="Minecraft">Minecraft</input></li>
+                <li><input type="checkbox" name="Rainbow Six Siege">Rainbow Six Siege</input></li>
+                <li><input type="checkbox" name="God of War">God of War</input></li>
+              </ul>
+              <h3>¿Cuándo salió Grand Theft Auto: San Andreas?</h3>
+              <ul>
+                <label for="2004">2004</label>
+                <input type="radio" name="genero" id="2004">
+
+                <label for="2005">2005</label>
+                <input type="radio" name="genero" id="2005">
+
+                <label for="2007">2007</label>
+                <input type="radio" name="genero" id="2007">
+              </ul>
+              <h3>Usuario gamer:</h3>
+              <ul class="lista" >
+                <li>
+                  <label for="nombreg">Nombre gamer</label>
+                  <input type="text" name="hola" placeholder="Nombre gamer" id="nombreg">
+                </li>
+                <li>
+                  <label for="Contraseña">Contraseña</label>
+                  <input type="password" name="hola" placeholder="Contraseña" id="Contraseña">
+                </li>
+              </ul>
+              <h3>¿Qué le ha parecido el Cuestionario? <br>Aqui puede dejar su comentario:</h3>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <br>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Cancelar">
+            </form>
+          </section>
+        </article>
+      </main>
+    <footer class="soyfooter">
+      <h3>&copy; Copyright 2023 todos los derechos reservados</h3>
+    </footer>
+  </body>
+</html>
